@@ -1,0 +1,143 @@
+footer {
+    display: flex;
+    background-color: #e0e0e0;
+    align-items: center;
+    grid-area: 3 / 1 / 4 / 4 ;
+    filter: blur(0) !important; 
+}
+footer img{
+    height: 40px;
+}
+footer section {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+footer section article{
+    background-color: #adadad;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1s;
+    width: 55px;
+    height: 55px;
+}
+/*                    menu burger                  */
+#burgerMenu{
+    flex-direction: column-reverse;
+    justify-content: end;
+    background-color: #adadad;
+    height: 200px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 80px;
+    right: 3vw;
+    
+}
+footer section article a{
+    width: 40px;
+    height: 40px;
+}
+#burgerMenu a{
+    margin: 6px 0;
+}
+footer section article:hover{
+    border-radius: 10px;
+}
+/*                   menu statut                   */
+.buttonStatut {
+    margin: 5 0;
+}
+.statut {
+    position: absolute;
+    right: 105%;
+    height: max-content;
+    width: max-content;
+    border-radius: 5px;
+    bottom: 0%;
+    width: 150px;
+    transition-duration: 0.4s;
+}
+.statut ul{
+    padding: 0 10px;
+    width: 100%;
+}
+.statut ul li{
+    width: min-content;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.statut ul li p{
+    width: 100px;
+    
+}
+.statut ul li img{
+    margin: 5px 0;
+    width: 40px;
+}
+/*                   menu notification                      */
+.notification {
+    position: absolute;
+    bottom: 80px;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    left: 10px;
+    border-radius: 10px 0 0 10px;
+    width: 80%;
+    background-color: #e0e0e0;
+    border: 3px solid #adadad;
+    border-right: none;
+}
+.notification article{
+    background-color: initial;
+    width: 100%;
+    margin: 5px 0;
+    height: 50px;
+}
+.notification ul{
+    padding: 0;
+    border-top: 2px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    
+}
+
+.notification ul li {
+    padding: 3px;
+
+}
+.notification .imageProfil {
+    width: 10%;
+    
+}
+.notification .nomProfil {
+    width: 20%;
+    min-width: 90px;
+    
+}
+.notification .messagesRecu {
+    width: 30%;
+    
+}
+.notification .notificationDate {
+    width: 15%;
+    text-align: center;
+
+}
+@media (min-width:675px) {
+    footer {
+        display: none;
+    }
+}

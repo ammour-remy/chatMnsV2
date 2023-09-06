@@ -1,0 +1,192 @@
+body{
+    grid-template-rows: 7% 75% 8% 10%;
+    grid-template-columns: 15% 70% 15%;
+}
+main {
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+button {
+	height: 40px;
+	font-size: 0.9em;
+	font-weight: bold;
+	background-color: #E0E0E0;
+	border: 2px solid #adadad;
+	border-radius: 5px;
+	letter-spacing: 2px;
+}
+main section:nth-child(2){
+    margin-top: 20px;
+}
+.otherMessages{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    margin-left: 5px;
+}
+.myMessages{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 99%;
+}
+.otherMessages article,
+.myMessages article{
+    width: 85%;
+    padding: 8px;
+    background-color: #e0e0e0;
+}
+.chatIdentity{
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content:initial;
+    align-items: center;
+    border-bottom:2px solid white;
+    font-size: 1.25em;
+}
+.chatIdentity img{
+    width: 30px;
+    height: 30px;
+    background-color: #adadad;
+    border-radius: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+main section article:last-of-type{
+    border-radius:0 0 10px 10px ;
+    padding-top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.getDate {
+    right: 100px;
+    padding: 3px;
+    background-color: #adadad;
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+}
+
+#inputChat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: 3 / 1 / 4 / 4 ;
+    position: relative;
+}
+#inputContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#inputContainer input{
+    width: 85%;  
+    border: 3px solid #E0E0E0;
+    border-radius: 7px;
+}
+#inputContainer ul{
+    padding: 0;
+    width: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 27.5%;
+    right: 16%;
+    overflow: hidden;
+    transition: 0.5s;
+    
+}
+#inputContainer ul:hover{
+    width: 250px;
+    
+}
+
+#inputContainer ul li{
+    margin: 0 5px;
+}
+#inputContainer ul li img{
+    height: 30px;
+}
+#inputContainer button{
+    width: 60px;  
+    background-color: #adadad00;
+    border: none;
+}
+#inputContainer  button img{
+   height: 40px;
+}
+footer {
+    grid-area: 4 / 1 / 5 / 4 ;
+}
+@media (min-width:475px) {
+
+    #inputContainer ul{
+        top: 29.7%;
+        right: 13%;
+    }
+}
+@media (min-width:675px) {
+    body {
+        grid-template-rows: 10% 82% 8%;
+        grid-template-columns: 10% 25% 65%;
+    }
+    #groupMenu {
+        grid-area: 1 / 1 / 4 / 2 ;
+        
+    }
+    #subMenu {
+        grid-area: 1 / 2 / 4 / 3 ;
+    }
+    #inputChat {
+        grid-area: 3 / 3 / 4 / 4 ;
+    }
+    .otherMessages article,
+    .myMessages article{
+        width: 75%;
+    }
+    #inputContainer ul{
+        top: 25%;
+        right: 12%;
+        
+    }
+    #inputContainer button img{
+        margin: 0;
+    }
+        
+    
+    
+}
+@media (min-width:850px) {
+    
+    .otherMessages article,
+    .myMessages article{
+        width: 47%;
+    }
+    #inputContainer {
+        justify-content: center;
+    }
+    aside #inputContainer input{
+        width: 60%;  
+    }
+    #inputContainer ul{
+        right: 23.5%;       
+    }
+    
+}
+@media (min-width:1000px) {
+    
+}
+@media (min-width:1140px) {
+    .otherMessages article,
+    .myMessages article{
+        width: 35%;
+    }
+    #inputContainer ul{
+        right: 22%;       
+    }
+}

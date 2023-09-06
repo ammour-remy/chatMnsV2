@@ -1,0 +1,49 @@
+<<<<<<< HEAD
+07/02/2023 -> Aujourd'hui, nous avons commencer le choix des projets fils rouge, avec Remy Ammour et Remy Paquin, nous partons sur le projet "alertmns", un projet qui consiste à créé un site
+comme un réseaux social. Pour cela nous nous somme concerté et commencer a détailler le travail à réaliser via trello. Nous avons commencé à débattre sur la création d'un compte utilisateur, système de pièce jointe, création d'un agenda pour prise de rendez-vous(google agenda), création d'une BDD pour la sauvegarde les informations. Nous avons discuter aussi de la création d'un système de navigation. Pour le HTML et CSS, création de la plateforme de la messageire instantané. Aussi, nous voulons crée un sytème de recherche interne puis un formulaire de contact. Ses idées figure sur notre trello. 
+
+09/02/2023 -> Aujourd'hui, nous avons détailler nos idées trello afin d'avoir plusieurs fonctionnalité bien détailler.
+
+10/02/2023 -> Today, nous avons discuter du masuettage pour notre projet fil rouge, nous somme arti sur l'idée du reseaux "Discord". Nous avons aussi réaliser la maquette sur excalidraw.
+
+13/02/2023 -> Nous avons fini la création de la maquette de notre projet fil rouge( avis personnelle la maquette est très très belle ), de mon côté, j'ai réaliser la création du logo de notre projet, il faut changer la police d'écriture et trouver celle qui ressemble au logo de notre formation Metz Numeric School.
+
+=======
+07/02/2023 -> Aujourd'hui, nous avons commencer le choix des projets fils rouge, avec Remy Ammour et Remy Paquin, nous partons sur le projet "alertmns", un projet qui consiste à créé un site
+comme un réseaux social. Pour cela nous nous somme concerté et commencer a détailler le travail à réaliser via trello. Nous avons commencé à débattre sur la création d'un compte utilisateur, système de pièce jointe, création d'un agenda pour prise de rendez-vous(google agenda), création d'une BDD pour la sauvegarde les informations. Nous avons discuter aussi de la création d'un système de navigation. Pour le HTML et CSS, création de la plateforme de la messageire instantané. Aussi, nous voulons crée un sytème de recherche interne puis un formulaire de contact. Ses idées figure sur notre trello. 
+
+09/02/2023 -> Aujourd'hui, nous avons détailler nos idées trello afin d'avoir plusieurs fonctionnalité bien détailler.
+
+10/02/2023 -> Today, nous avons discuter du masuettage pour notre projet fil rouge, nous somme arti sur l'idée du reseaux "Discord". Nous avons aussi réaliser la maquette sur excalidraw.
+
+13/02/2023 -> Nous avons fini la création de la maquette de notre projet fil rouge( avis personnelle la maquette est très très belle ), de mon côté, j'ai réaliser la création du logo de notre projet, il faut changer la police d'écriture et trouver celle qui ressemble au logo de notre formation Metz Numeric School.
+
+>>>>>>> e0991d1347a22322aa4d2295131a516034555d26
+15/02/2023 -> Nous avons selectionné le logo pour notre site puis commencer a crée un dossier sur la plateforme GitHub. Nous avons aussi commencer à discuter de la BDD.
+
+28/02/2023 -> Nous avons continuer la recherche d'icône pour notre site, puis nous avons pofiné la visualisation de la maquette du site que nous allons commencé sur figma. Nous avons aussi réaliser la maquette en format smartphone. 
+
+21/02/2023 -> aujourd'hui, nous avons commencer la BDD sur le logiciel Looping pour le projet fil rouge chatMNS, Nous allons posé la quetion au formateur pour le sujet d'un super utilisateur, c'est à dire les accès de l'administrateuret le planning du google agenda.
+
+23/02/2023 -> Nous avons réaliser la suite du maquettage sur Excalidraw, aussi De mon cote, j'ai mener des recherches sur le site icones8 les icones pour le site fil rouge Chat MNS. 
+
+17/03/2023 -> Nous avons pris rendez-vous avec notre Formateur afin de lui montrer notre avancer sur la BDD et la maquette. Nous avons eu les conseils de notre formateur pour ameliorer la base de donnée. 
+
+30/03/2023 -> Deuxieme rendez-vous avec notre formateur.
+31/03/2023-21/04/2023 -> travail sur les pages du projet fil rouge en HTML, CSS et Javascript averc la création d'un planning pour noté nos rendez-vous. nous avons aussi installer le serveur pour le fil Rouge Avec le logiciel Putty. Putty est un logiciel qui permet l'installation d'environnement tel que NGINX, PHP, MARIADB.
+
+04/05/2023 -> Troisieme rendez-vous avec le formateur, nous avons posé les questions sur l'installation de PHPMyAdmin via ngnix,rajouter un ficher index.php car php lis que ses dossiers, nous remarquons que php n'est pas la bonne version donc nous décidons d'installer la version  7.4, le site pour changer le mot de passe est it connect pour changer le mot de passe via mariaDB. le mot de passe est celui qu'on nous a envoyer via gmail. pour les liens, crée un fichier ou ont insere les liens puis faire dans le code un echo du ficher pour gagne temps, rajouter les meta keywords indispensable. Robot.txt peut être rajouter pour montrer notre maitrise et w3c validator mettre l'URL et l'analysé pour une bonne pratique. le squelette HTML est validé et nous allons faire cela en PHP.
+
+05/05/2023-24/05/2023 -> travail sur la version php des pages de notre projet puis recherhce juridique pour les CGU et les integré en dans les paramètres. aussi integration des moyen de sécurité dans les codes php. 
+RAPPEL: 
+En PHP, il existe plusieurs aspects importants à prendre en compte pour assurer la sécurité de votre application. Voici les quatre points clés de la sécurité en PHP :
+
+Validation des entrées utilisateur : La validation des entrées utilisateur est essentielle pour prévenir les attaques par injection de code, telles que les attaques SQL et XSS (Cross-Site Scripting). Assurez-vous de filtrer et de valider toutes les données provenant des utilisateurs avant de les utiliser dans vos requêtes SQL, d'afficher sur les pages ou de les inclure dans d'autres opérations sensibles.
+
+Éviter les failles de sécurité connues : Tenez-vous informé des vulnérabilités connues et des failles de sécurité dans PHP et les bibliothèques que vous utilisez. Assurez-vous de garder votre version de PHP à jour et de mettre à jour régulièrement vos dépendances pour bénéficier des correctifs de sécurité.
+
+Protection contre les attaques par force brute et les attaques par déni de service (DoS) : Mettez en place des mécanismes de protection contre les attaques par force brute, telles que des limites de tentatives de connexion, des verrouillages de compte temporaires et des mots de passe forts. Pour prévenir les attaques par déni de service, configurez votre serveur pour gérer le trafic excessif et utilisez des techniques de mise en cache pour améliorer les performances de votre application.
+
+Gestion sécurisée des données sensibles : Assurez-vous de stocker les données sensibles, telles que les mots de passe des utilisateurs, de manière sécurisée en utilisant des fonctions de hachage sécurisées, telles que bcrypt, et en évitant de les stocker en clair dans votre base de données. Utilisez également des mécanismes de protection des sessions, tels que l'identification des utilisateurs et les jetons CSRF (Cross-Site Request Forgery), pour prévenir les attaques de session.
+
+31/05/2023 -> Quatrième rendez-vous avec notre formateur pour un probleme de recuperation de donnée avec la page profil.php; il ne fallait pas faire un $POST mais un $SESSION; nous avons fait sur la page index.php un SELECT count(*) AS nbuser et creation d'un $_SESSION['userid'] =£resultat['utilisateurId'] pour rester connecter durant toute la session et savoir aussi qui est connecté.

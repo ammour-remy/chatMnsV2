@@ -1,0 +1,9 @@
+Body{
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+    overflow: hidden;
+}
+.article{
+    padding: 5px;
+    margin: 5px;
+}
