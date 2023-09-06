@@ -1,7 +1,6 @@
 <?php
 require_once "../connexion/connect.php"; // Récupère le fichier de connexion
 include "../include/head.php"; // Récupère le fichier "head"
-require_once "../include/_protect.php"; // Récupère le fichier protect
 ?>
 <body>
     <header>

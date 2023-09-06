@@ -9,7 +9,6 @@
         
     <?php
 
-    session_start(); // Permet de démarrer une session ou restaurer un session exitante PHP pour l'utilisateur
     
     $page = basename($_SERVER['PHP_SELF']);
     
@@ -30,6 +29,7 @@
             break;
             
         case 'chatMns.php':
+                session_start(); // Permet de démarrer une session ou restaurer un session exitante PHP pour l'utilisateur
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/interfaceGenerale.css">';
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/header.css">';
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/asides.css">';
@@ -47,6 +47,7 @@
             break;
                 
         case 'contact.php':
+                session_start(); // Permet de démarrer une session ou restaurer un session exitante PHP pour l'utilisateur
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/interfaceGenerale.css">';
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/header.css">';
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/asides.css">';
@@ -79,6 +80,7 @@
             break;
                         
         case 'motDePasseOublie.php':
+                session_start(); // Permet de démarrer une session ou restaurer un session exitante PHP pour l'utilisateur
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/general.css">';
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/mot_de_passe_oublie.css">';
             echo '<meta name="description" content="Mot de passe Chat MNS oublié"/>';
@@ -93,6 +95,7 @@
             break;
                             
         case 'nouveauMotDePasse.php':
+                session_start(); // Permet de démarrer une session ou restaurer un session exitante PHP pour l'utilisateur
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/general.css">';
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/nouveau_mot_de_passe.css">';
             echo '<link rel="icon" href="href="../assets/images/favicon.ico" />';
@@ -107,6 +110,7 @@
             break;
                                 
         case 'parametre.php':
+                session_start(); // Permet de démarrer une session ou restaurer un session exitante PHP pour l'utilisateur
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/interfaceGenerale.css">';
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/header.css">';
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/asides.css">';
@@ -124,6 +128,7 @@
             break;
                                     
         case 'profil.php':
+                session_start(); // Permet de démarrer une session ou restaurer un session exitante PHP pour l'utilisateur
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/interfaceGenerale.css">';
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/header.css">';
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/asides.css">';
@@ -141,6 +146,7 @@
             break;
                                         
         case 'conditionGeneraleUtilisation.php':
+                session_start(); // Permet de démarrer une session ou restaurer un session exitante PHP pour l'utilisateur
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/interfaceGenerale.css">';
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/header.css">';
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/asides.css">';
@@ -158,6 +164,7 @@
             break;
                                             
         case 'planning.php':
+                session_start(); // Permet de démarrer une session ou restaurer un session exitante PHP pour l'utilisateur
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/interfaceGenerale.css">';
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/header.css">';
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/asides.css">';
@@ -181,6 +188,7 @@
             break;
                                                 
         case 'mentionsLegales.php':
+                session_start(); // Permet de démarrer une session ou restaurer un session exitante PHP pour l'utilisateur
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/interfaceGenerale.css">';
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/header.css">';
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/asides.css">';
@@ -197,6 +205,7 @@
             echo '<title>Mentions légales</title>';
             break;
             case 'admin.php':
+                session_start(); // Permet de démarrer une session ou restaurer un session exitante PHP pour l'utilisateur
                 echo '<link rel="stylesheet" type="text/css" href="../assets/css/interfaceGenerale.css">';
                 echo '<link rel="stylesheet" type="text/css" href="../assets/css/header.css">';
                 echo '<link rel="stylesheet" type="text/css" href="../assets/css/asides.css">';
