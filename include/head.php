@@ -15,6 +15,7 @@
     switch($page) {
         
         case 'index.php':
+                session_start();
             echo '<link rel="stylesheet" type="text/css" href="assets/css/general.css">';
             echo '<meta name="keywords" content="chat MNS">';
             echo '<meta name="description" content="Accueil, connexion à Chat MNS"/>';
