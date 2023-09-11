@@ -2,6 +2,9 @@
 aside {
     background-color: rgba(255, 255, 255, 0);
 }
+aside h3 {
+    margin: 10px 0  20px !important;
+}
 .asides{
     transition-duration: 0.5;
     display: none; /* Affiché lorsque la classe "show" est présente */

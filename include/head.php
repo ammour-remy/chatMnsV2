@@ -49,24 +49,25 @@
                 
         case 'contact.php':
                 session_start(); // Permet de démarrer une session ou restaurer un session exitante PHP pour l'utilisateur
-            echo '<link rel="stylesheet" type="text/css" href="../assets/css/interfaceGenerale.css">';
-            echo '<link rel="stylesheet" type="text/css" href="../assets/css/header.css">';
-            echo '<link rel="stylesheet" type="text/css" href="../assets/css/asides.css">';
-            echo '<link rel="stylesheet" type="text/css" href="../assets/css/footer.css">';
-            echo '<link rel="stylesheet" type="text/css" href="../assets/css/contact.css">';
-            echo '<link rel="preconnect" href="https://fonts.googleapis.com">
-                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">';
-            echo '<link rel="preconnect" href="https://fonts.googleapis.com">
-                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">';
-            echo '<link rel="icon" href="href="../assets/images/favicon.ico" />';
-            
-            echo '<meta name="description" content="Contact de Chat MNS"/>';
-            echo '<title>Contact</title>';
-            break;
-                    
-        case 'inscription.php':
+                echo '<link rel="stylesheet" type="text/css" href="../assets/css/interfaceGenerale.css">';
+                echo '<link rel="stylesheet" type="text/css" href="../assets/css/header.css">';
+                echo '<link rel="stylesheet" type="text/css" href="../assets/css/asides.css">';
+                echo '<link rel="stylesheet" type="text/css" href="../assets/css/footer.css">';
+                echo '<link rel="stylesheet" type="text/css" href="../assets/css/contact.css">';
+                echo '<link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">';
+                echo '<link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">';
+                echo '<link rel="icon" href="href="../assets/images/favicon.ico" />';
+                
+                echo '<meta name="description" content="Contact de Chat MNS"/>';
+                echo '<title>Contact</title>';
+                break;
+                
+                case 'inscription.php':
+                        session_start(); // Permet de démarrer une session ou restaurer un session exitante PHP pour l'utilisateur
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/general.css">';
             echo '<link rel="stylesheet" type="text/css" href="../assets/css/inscription.css">';
             echo '<meta name="description" content="Inscription à Chat MNS"/>';
